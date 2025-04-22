@@ -83,3 +83,34 @@
 #     pro=num*pro
     
 # print(pro)
+
+
+# n=int(input())
+# for i in range(n):
+#     print("*" * (i+1))
+
+
+# m=int(input())
+# n=int(input())
+# sum=0
+# for i in range(m, n+1):
+#     sum+=i
+# print(sum)
+
+
+# n=int(input())
+# for i in range(1,n+1):
+#     if i==n:
+#         print(i*"+ ")
+#     else:
+#         print(i*"* ")
+
+
+# n=int(input())
+# def print_tri(n):
+#     for i in range(1,n+1):
+#         print(str(i) * i)
+# print_tri(n)
+# print_tri(n)
+
+
