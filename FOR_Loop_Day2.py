@@ -5,14 +5,6 @@
 
 
 # n=int(input())
-# sum=0
-# for i in range(n):
-#     num=int(input())
-#     sum+=num
-# print(sum/n)
-
-
-# n=int(input())
 # def print_tri(n):
 #     for i in range(1,n+1):
 #         print(i * "* ")
@@ -117,3 +109,11 @@
 # for i in range(1,m+1):
 #     if i%2==0:
 #         print(i)
+
+
+# n=int(input())
+# sum=0
+# for i in range(n):
+#     num=int(input())
+#     sum+=num
+# print(sum/n)
