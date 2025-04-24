@@ -61,3 +61,20 @@
 #     print(a[len(a)-(i+1)])
 
 
+# t=int(input())
+# m=int(input())
+# n=int(input())
+# sum=0
+# for i in range(m,n+1):
+#     if i%t==0:
+#         sum+=i
+# print(sum)
+
+
+# m=int(input())
+# n=int(input())
+# t=""
+# for i in range(n,m-1,-1):
+#     if i%2==1:
+#         t=t+str(i)+" "
+# print(t)
