@@ -20,3 +20,11 @@
 # print(reverse)
 
 
+# num=input()
+# sum=0
+# for i in num:
+#     sum+=(int(i) ** len(num))
+# if sum==int(num):
+#     print("Armstrong Number")
+# else:
+#     print("Not an Armstrong Number")
