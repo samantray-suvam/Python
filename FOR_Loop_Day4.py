@@ -57,3 +57,20 @@
 # for i in range(1,m+1):
 #     if m%i==0:
 #         print(i)
+
+
+# m=int(input())
+# for i in range(1,m+1):
+#     if m%i==0:
+#         print(i, end=" ")
+
+
+# a=int(input())
+# sum=0
+# for i in range (1,a):
+#     if a%i==0:
+#         sum+=i
+# if sum==a:
+#     print("Perfect Number")
+# else:
+#     print("Not a Perfect Number")
