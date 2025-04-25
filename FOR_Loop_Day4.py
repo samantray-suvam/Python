@@ -37,3 +37,23 @@
 #     if num>greatest_num:
 #         greatest_num=num
 # print(greatest_num)
+
+
+# a=input()
+# for i in a:
+#     if i=="a" or i=="e" or i=="i" or i=="o" or i=="u":
+#         print(i, end="")
+
+
+# m=input()
+# sum=0
+# power=len(m)
+# for i in m:
+#     sum+=(int(i)**power)
+# print(sum)
+
+
+# m=int(input())
+# for i in range(1,m+1):
+#     if m%i==0:
+#         print(i)
