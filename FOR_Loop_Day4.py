@@ -28,3 +28,12 @@
 #     print("Armstrong Number")
 # else:
 #     print("Not an Armstrong Number")
+
+
+# a=int(input())
+# greatest_num=int(input())
+# for i in range(a-1):
+#     num=int(input())
+#     if num>greatest_num:
+#         greatest_num=num
+# print(greatest_num)
