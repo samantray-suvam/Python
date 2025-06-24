@@ -38,7 +38,7 @@
 
 n=int(input())
 for i in range(1, n+1):
-    space = (" ")*(i-1)
-    num = (n+1)-i
-    row = space + (str(num)+" ")*num
+    space = 2*(i-1)
+    num = n+1-i
+    row = (" ")*space + (str(num)+" ")*num
     print(row)
