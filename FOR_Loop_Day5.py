@@ -113,3 +113,41 @@
 #     print("Divisible Number")
 # else:
 #     print("Indivisible Number")
+
+
+# n=int(input())
+# for i in range (1, n+1):
+#     space = 2*(n-i)
+#     star=i
+#     row=(" ")*space + ("* ")*star
+#     print(row)
+
+
+# n=int(input())
+# for i in range (1, n+1):
+#     space = 4*(n-i)
+#     star=i
+#     row=("* ")*star + (" ")*space + ("* ")*star
+#     print(row)
+
+
+# n=int(input())
+# for i in range (1, n+1):
+#     space = 2*(n-i)
+#     star=2*i-1
+#     row=(" ")*space + ("* ")*star
+#     print(row)
+
+
+# n=int(input())
+# for i in range (1, n+1):
+#     space =n-i
+#     star=i
+#     row=(" ")*space + ("* ")*star
+#     print(row)
+    
+# for i in range (1, n):
+#     space =i
+#     star=n-i
+#     row=(" ")*space + ("* ")*star
+#     print(row)
