@@ -18,3 +18,19 @@ for i in range(1, n + 1):
     stars = i
     row = " " * spaces + "*" * stars
     print(row)
+
+
+    n=int(input())
+for i in range (1, n+1):
+    space = 2*(n-i)
+    star = i 
+    row = (" ")*space + ("* ")*star
+    print(row)
+
+
+    n=int(input())
+for i in range(1, n+1):
+    space = i-1
+    num = n-space
+    row = " "*space + str(num)*num
+    print(row)
