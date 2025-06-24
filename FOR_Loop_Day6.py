@@ -36,9 +36,25 @@
 #     print(row)
 
 
+# n=int(input())
+# for i in range(1, n+1):
+#     space = 2*(i-1)
+#     num = n+1-i
+#     row = (" ")*space + (str(num)+" ")*num
+#     print(row)
+
+
 n=int(input())
-for i in range(1, n+1):
-    space = 2*(i-1)
-    num = n+1-i
-    row = (" ")*space + (str(num)+" ")*num
+for i in range(n):
+    space = (" ")*(n-i-1)
+    star = (" * ")*((2*i)+1)
+    row = space + star
     print(row)
+
+
+# n=int(input())
+# for i in range(n):
+#     space = i 
+#     star = (2*(n-i)-1)
+#     row = (" ")*space + ("*")*star
+#     print(row)
