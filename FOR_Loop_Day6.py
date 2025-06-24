@@ -96,3 +96,19 @@
 #     print(star + space)
 
 
+# n=int(input())
+# print(("+ ")*n)
+
+# for i in range (1, n+1):
+#     space = (" ")* i
+#     star = ("* ")* (n-i)
+#     print(space + star)
+
+
+
+# n=int(input())
+# for i in range(1, n+1):
+#     star = ("* ") * i 
+#     space = (" ") * 2*(n-i)
+    
+#     print(star + space*2 + star)
