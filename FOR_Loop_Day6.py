@@ -5,11 +5,12 @@
 # for i in range(1, n+1):
 #     power = 2 * i 
 #     term = x ** power
-    
+
 #     if i%2==0:
 #         term = -term
 #     sum+=term
 # print(sum)
+
 
 
 # n = int(input("Enter the number of rows: "))
@@ -20,12 +21,14 @@
 #     print(row)
 
 
+
 #     n=int(input())
 # for i in range (1, n+1):
 #     space = 2*(n-i)
 #     star = i 
 #     row = (" ")*space + ("* ")*star
 #     print(row)
+
 
 
 #     n=int(input())
@@ -36,6 +39,7 @@
 #     print(row)
 
 
+
 # n=int(input())
 # for i in range(1, n+1):
 #     space = 2*(i-1)
@@ -44,8 +48,8 @@
 #     print(row)
 
 
-# n = int(input("Enter number of rows: "))  # Example: 3
 
+# n = int(input("Enter number of rows: ")) 
 # for i in range(n):
 #     spaces = n - i - 1
 #     stars = 2 * i + 1
@@ -90,3 +94,5 @@
 #     star = ("* ")*(n-i)
 #     space = (" ")*i
 #     print(star + space)
+
+
