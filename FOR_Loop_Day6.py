@@ -44,12 +44,13 @@
 #     print(row)
 
 
-n=int(input())
+n = int(input("Enter number of rows: "))  # Example: 3
+
 for i in range(n):
-    space = (" ")*(n-i-1)
-    star = (" * ")*((2*i)+1)
-    row = space + star
-    print(row)
+    spaces = n - i - 1
+    stars = 2 * i + 1
+    print(" " * spaces + "* " * stars)
+
 
 
 # n=int(input())
