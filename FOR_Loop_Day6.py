@@ -44,12 +44,12 @@
 #     print(row)
 
 
-n = int(input("Enter number of rows: "))  # Example: 3
+# n = int(input("Enter number of rows: "))  # Example: 3
 
-for i in range(n):
-    spaces = n - i - 1
-    stars = 2 * i + 1
-    print(" " * spaces + "* " * stars)
+# for i in range(n):
+#     spaces = n - i - 1
+#     stars = 2 * i + 1
+#     print(" " * spaces + "* " * stars)
 
 
 
