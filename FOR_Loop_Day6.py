@@ -59,3 +59,22 @@
 #     star = (2*(n-i)-1)
 #     row = (" ")*space + ("*")*star
 #     print(row)
+
+
+n=int(input())
+for i in range (1, n+1):
+    space = n-i
+    row = (" ")*space + (str(i)+" ")*i
+    print(row)
+
+
+    n=int(input())
+for i in range(1, n+1):
+    space = (" ") * (n-i)
+    star = ("* ") * (i)
+    print(space + star)
+
+for i in range(1, n+1):
+    space = (" ") * (i)
+    star = ("* ") * (n-i)
+    print(space + star)
