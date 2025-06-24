@@ -61,20 +61,32 @@
 #     print(row)
 
 
-n=int(input())
-for i in range (1, n+1):
-    space = n-i
-    row = (" ")*space + (str(i)+" ")*i
-    print(row)
+# n=int(input())
+# for i in range (1, n+1):
+#     space = n-i
+#     row = (" ")*space + (str(i)+" ")*i
+#     print(row)
 
 
-    n=int(input())
-for i in range(1, n+1):
-    space = (" ") * (n-i)
-    star = ("* ") * (i)
-    print(space + star)
 
-for i in range(1, n+1):
-    space = (" ") * (i)
-    star = ("* ") * (n-i)
-    print(space + star)
+#     n=int(input())
+# for i in range(1, n+1):
+#     space = (" ") * (n-i)
+#     star = ("* ") * (i)
+#     print(space + star)
+# for i in range(1, n+1):
+#     space = (" ") * (i)
+#     star = ("* ") * (n-i)
+#     print(space + star)
+
+
+
+#     n=int(input())
+# for i in range (1, n+1):
+#     star = ("* ")*i 
+#     space = (" ")*(n-i)
+#     print(star + space)
+# for i in range(1, n+1):
+#     star = ("* ")*(n-i)
+#     space = (" ")*i
+#     print(star + space)
