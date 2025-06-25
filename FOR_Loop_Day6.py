@@ -112,3 +112,23 @@
 #     space = (" ") * 2*(n-i)
     
 #     print(star + space*2 + star)
+
+
+# n=int(input())
+# for i in range(1, n+1):
+#     space = (" ")*(n-i)
+#     star = ("* ")*i 
+#     print(space + star + 2*space + star)
+
+
+# n = int(input())
+
+# for i in range(1, n + 1):
+#     stars = "* " * i
+#     spaces = "  " * (n - i)
+#     print(spaces + stars + spaces + stars)
+
+# for i in range(n - 1, 0, -1):
+#     stars = "* " * i
+#     spaces = "  " * (n - i)
+#     print(spaces + stars + spaces + stars)
